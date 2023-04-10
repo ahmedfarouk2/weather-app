@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>the very simple weather app</h1>
+    <div class="parent-container">
+      <div class="input-container">
+        <input
+          type="search"
+          id="search"
+          value=""
+          placeholder="Just enter a location over here bro/sis"
+        />
+        <input type="submit" id="submit" />
+      </div>
+      <div class="weather-data-container">
+        <div class="region"></div>
+        <div class="region-weather">
+          <div class="left-weather-details">
+            <div class="temp-c"></div>
+            <div class="wind-speed-km"></div>
+            <div class="humidity"></div>
+          </div>
+          <div class="right-weather-details">
+            <div class="temp-f"></div>
+            <div class="wind-speed-mph"></div>
+            <div class="clouds"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
