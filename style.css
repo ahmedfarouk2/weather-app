@@ -1,1 +1,63 @@
+body {
+  background-color: #000;
+  font-family: monospace;
+  height: 100vh;
+  overflow: hidden;
+}
 
+h1 {
+  color: red;
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}
+
+.input-container {
+  display: flex;
+  gap: 6px;
+}
+
+#submit {
+  border-radius: 50%;
+}
+
+.parent-container {
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  border-radius: 15px;
+  width: 400px;
+  height: 50px;
+  font-size: 1.0rem;
+  padding: 10px;
+}
+
+.weather-data-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color: white;
+  gap: 80px;
+  text-align: center;
+}
+
+
+.region-weather {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.left-weather-details,
+.right-weather-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
